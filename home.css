@@ -1,0 +1,89 @@
+/*Home Landing Page*/
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-gap: 3rem;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.left-column {
+  grid-column: 1 / 2;
+}
+
+.btn1 {
+  background-color: #4BCE79;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 1.5em;
+  padding: 10px 25px;
+  border: 1px solid #4BCE79;
+  border-radius: 4px;
+  outline: none;
+}
+
+.btn1 a {
+  color: black;
+}
+
+.btn2 {
+  background-color: #111111;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 25px;
+  border: 1px solid #111111;
+  border-radius: 4px;
+  outline: none;
+  margin-left: 8px;
+}
+
+.btn2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.right-column {
+  grid-column: 2 / 2;
+  padding-left: 15px;
+}
+
+.focus {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.main-content > .right-column > .img-wrapper > img {
+  width: auto;
+  height: 480px;
+  outline: none;
+  box-shadow: -8px 0px 19px #18191A;
+  border: none;
+}
+
+.main-content > .right-column > .img-title-wrapper {
+  text-indent: 15px;
+}
+
+.bottom-bar-category-wrapper {
+  margin: 0px;
+  height: 55px;
+  background-color: #36383F;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 2px solid #525354;
+}
+
+.caps-category {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
